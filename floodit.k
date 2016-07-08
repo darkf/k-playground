@@ -1,3 +1,6 @@
+/ Flood-It game
+/ Run in iKe
+
 scale: {[l;n] ,/{+,/{(n; n)#x}'x}'l}
 
 newboard: {x; 8 8 # (8*8)?8}
