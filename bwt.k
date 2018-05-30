@@ -6,5 +6,6 @@
 / bwt: {n: rots[x]; last' n@<n}
 / bwt: {rot: {1_x,*x}; {x[(#x)-1]}' {x@<x}[rot\x]}
 
+/ shorter: bwt: {{*|x}'{x@<x}[{1_x,*x}\x]}
 bwt: {{x[(#x)-1]}'{x@<x}[{1_x,*x}\x]}
 bwt "^BANANA|"
